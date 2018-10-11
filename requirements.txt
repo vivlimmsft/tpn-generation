@@ -1,15 +1,5 @@
-# Install flake8 first, as both flake8 and autopep8 require pycodestyle,
-# but flake8 has a tighter pinning.
-flake8
-autopep8
-black ; python_version>='3.6'
-yapf
-pylint
-pep8
-prospector
-pydocstyle
-nose
-pytest
-rope
-flask
-django
+aiohttp~=3.3.2
+docopt~=0.6.2
+pytest~=3.6.0
+pytest-asyncio~=0.8.0
+pytoml~=0.1.15
